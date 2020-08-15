@@ -4,13 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "server:dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
+    "server:dev": "ts-node-dev --transpile-only --inspect --ignore-watch node_modules src/server.ts"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "date-fns": "^2.15.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.7",
